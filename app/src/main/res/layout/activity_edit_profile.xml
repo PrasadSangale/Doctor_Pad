@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="176dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/nametag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME : "
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <TextView
+        android:id="@+id/namecamefromfirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+
+        android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <TextView
+        android:id="@+id/agetag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE : "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/agecamefromfirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <TextView
+        android:id="@+id/phonenotag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO. : "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <TextView
+        android:id="@+id/phonenocamefromfirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <TextView
+        android:id="@+id/addresstag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS : "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/addresscamefromfirestore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!-- Header aligned to top -->
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#3F51B5"
+            android:gravity="center"
+            android:src="@drawable/baseline_person_24">
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentStart="true"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginStart="157dp"-->
+            <!--                android:layout_marginTop="15dp"-->
+            <!--                android:layout_marginEnd="86dp"-->
+            <!--                android:layout_marginBottom="15dp"-->
+            <!--                android:text="DOCPAD"-->
+            <!--                android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+            <!--                android:textColor="#37AADD"-->
+            <!--                android:textSize="27dp"-->
+            <!--                app:textAllCaps="true" />-->
+
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/home_button"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="66dp"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginLeft="00dp"-->
+            <!--                android:layout_marginEnd="353dp"-->
+            <!--                android:background="#3F51B5"-->
+            <!--                android:src="?attr/listChoiceBackgroundIndicator">-->
+
+            <!--            </ImageButton>-->
+        </RelativeLayout>
+
+        <!-- Footer aligned to bottom -->
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#3F51B5"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/home_button"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="00dp"
+                android:background="#3F51B5"
+                android:src="@drawable/baseline_home_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/doctor_button"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="85dp"
+                android:background="#3F51B5"
+                android:src="@drawable/baseline_person_search_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/profile_button"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="170dp"
+                android:background="#3F51B5"
+                android:src="@drawable/baseline_person_24"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/logout_button"
+                android:layout_width="57dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="250dp"
+                android:background="#3F51B5"
+                android:src="@drawable/baseline_logout_24"></ImageButton>
+        </RelativeLayout>
+
+        <!-- Content below header and above footer -->
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

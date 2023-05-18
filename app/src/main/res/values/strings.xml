@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">DocPad</string>
+
+    <string-array name="cardio_names">
+        <item>DR.PRASAD SANGLE</item>
+        <item>DR.JAYDEEP PALEP</item>
+        <item>DR.SMIT DAVE</item>
+        <item>DR.SHIKHA LULLA</item>
+        <item>DR.MADHURI JOSHI</item>
+        <item>DR.HARSH SHAH</item>
+        <item>DR.MAYA PATEL</item>
+
+    </string-array>
+    <string-array name="pulmonologist_names">
+        <item>DR.TULSI VAIDYA</item>
+        <item>DR.PARAG SHAH</item>
+        <item>DR.HETVI KOTI</item>
+        <item>DR.RAJESH SHAH</item>
+        <item>DR.ISHIKA MEHTA</item>
+        <item>DR.SAHALI SHAH</item>
+        <item>DR.NAYAN JADHAV</item>
+        <item>DR.SANJOUY SHAH</item>
+    </string-array>
+
+    <string-array name="neuro_names">
+        <item>DR.KARAN KAMAT</item>
+        <item>DR.ASHISH JAIN</item>
+        <item>DR.RAJIV GUPTA</item>
+        <item>DR.RAJESH SHAH</item>
+        <item>DR.SHASHWAT SHAH</item>
+        <item>DR.PRANAV DAVE</item>
+        <item>DR.MAYA LULLA</item>
+        <item>DR.YASH BAVISHI</item>
+    </string-array>
+
+    <string-array name="cardiologist">
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+        <item>Specialist : Cardiologist</item>
+    </string-array>
+
+    <string-array name="pulmonologist">
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+        <item>Specialist : Pulmonologist</item>
+    </string-array>
+
+    <string-array name="neurologist">
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+        <item>Specialist : Neurologist</item>
+    </string-array>
+
+    <string-array name="doctor_names">
+        <item>DR.ARJAV VAJIR</item>
+        <item>DR.ASMI SHAH</item>
+        <item>DR.FARHAN SHEIKH</item>
+        <item>DR.DIKSHA JAIN</item>
+        <item>DR.MISHRI VAJIR</item>
+        <item>DR.SMITA DAVE</item>
+        <item>DR.RAHUL SHAH</item>
+        <item>DR.MEERA MARY</item>
+        <item>DR.RAHUL SHAH</item>
+        <item>DR.SMIT VASH</item>
+        <item>DR.SALONI MEHTA</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Specialist : Cardiologist </item>
+        <item>Specialist : Pulmonologist </item>
+        <item>Specialist : Cardiologist </item>
+        <item>Specialist : ENT Specialist </item>
+        <item>Specialist : Pulmonologist </item>
+        <item>Specialist : Cardiologist </item>
+        <item>Specialist : Radiologist </item>
+        <item>Specialist : Pulmonologist </item>
+        <item>Specialist : Cardiologist </item>
+        <item>Specialist : Pulmonologist </item>
+        <item>Specialist : Gynaecologist </item>
+    </string-array>
+
+
+    <string-array name="location">
+        <item>Location : Mumbai </item>
+        <item>Location : Pune </item>
+        <item>Location : Surat </item>
+        <item>Location : Delhi </item>
+        <item>Location : Goa </item>
+        <item>Location : Mumbai </item>
+        <item>Location : Delhi </item>
+        <item>Location : Mumbai </item>
+
+    </string-array>
+
+
+</resources>
